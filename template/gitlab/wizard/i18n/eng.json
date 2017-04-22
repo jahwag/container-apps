@@ -10,5 +10,6 @@
   "SERVICE_ENTRY": "Service entrypoint",
   "START_ONBOOT": "Start on boot",
   "CONTEXT_PATH": "Context path",
-  "SERVICE_URL": "Service URL"
+  "SERVICE_URL": "Service URL",
+  "GITLAB_SECRET_KEY_DESC" : "Secret key to encrypt variables."
 }

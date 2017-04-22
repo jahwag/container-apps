@@ -16,6 +16,12 @@
           "title": "SSH Port",
           "description": "{{GITLAB_SSH_HOST_PORT_DESC}}",
 		  "required": true
+        },
+        "secret_key": {
+          "type": "string",
+          "title": "Secret Key",
+          "description": "{{GITLAB_SECRET_KEY_DESC}}",
+          "required": true
         }
       },
       "form": [
@@ -34,6 +40,10 @@
       "ssh_port": [
         "gitlab.environment.GITLAB_SSH_PORT",
         "gitlab.ports[1]"
+      ],
+      "secret_key":[
+        "gitlab.environment.GITLAB_SECRETS_DB_KEY_BASE",
+        "gitlab.secret_key"
       ]
     }
   }
