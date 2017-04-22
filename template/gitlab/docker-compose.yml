@@ -13,8 +13,8 @@ gitlab:
     - redis:redisio
     - postgresql:postgresql
   ports:
-    - "10080:80"
-    - "10022:22"
+    - "10080:10080"
+    - "10022:10022"
   environment:
     - DEBUG=false
     - GITLAB_PORT=10080
